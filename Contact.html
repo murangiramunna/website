@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f7f7f7;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 0;
+        }
+
+        .contact-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .contact-item {
+            margin: 10px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            display: flex;
+            align-items: center;
+            transition: transform 0.3s;
+        }
+
+        .contact-item:hover {
+            transform: translateY(-3px);
+        }
+
+        .contact-icon {
+            font-size: 30px;
+            margin-right: 10px;
+        }
+
+        .contact-name {
+            font-size: 18px;
+            color: #333;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contact Information</h1>
+    <ul class="contact-list">
+        <li class="contact-item">
+            <i class="fas fa-envelope contact-icon"></i>
+            <p class="contact-name">Email: murangidr@gmail.com</p>
+        </li>
+        <li class="contact-item">
+            <i class="fas fa-phone contact-icon"></i>
+            <p class="contact-name">Phone: +76 776 2069</p>
+        </li>
+        <li class="contact-item">
+            <i class="fab fa-twitter contact-icon"></i>
+            <p class="contact-name">Twitter: @murangi_r</p>
+        </li>
+        <li class="contact-item">
+            <i class="fab fa-instagram contact-icon"></i>
+            <p class="contact-name">Instagram: @ramunnamurangi</p>
+        </li>
+    </ul>
+</body>
+</html>
